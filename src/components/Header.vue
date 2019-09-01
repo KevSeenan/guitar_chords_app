@@ -13,10 +13,10 @@ export default {
 
 <style lang="css" scoped>
 #header-container {
-  background-color: black;
   text-align: center;
   color: white;
   background-image: url('../assets/flamy_guitar.jpeg');
   /* image obtained from: https://unsplash.com/photos/JmVaNyemtN8 */
+  border-style: groove;
 }
 </style>

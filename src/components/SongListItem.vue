@@ -19,4 +19,17 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
+li:hover {
+  background: red;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
+
+li {
+  text-decoration: underline;
+  list-style: none;
+}
+
 </style>

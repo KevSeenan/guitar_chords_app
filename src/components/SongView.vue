@@ -37,13 +37,14 @@ export default {
 <style lang="css" scoped>
 
 #view {
-  display:flex;
-  cursor: pointer;
-  color: 	#FF4500;
-  /* background-color: #000000; */
+  display: flex;
+  color: #FF4500;
+  background-color: #000000;
   background-image: url('../assets/me_jamming.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: right;
+  background-origin: border-box;
+  background-size: 950px;
 }
 
 </style>

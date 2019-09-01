@@ -22,4 +22,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
+#view{
+  border-style: groove;
+}
 </style>
