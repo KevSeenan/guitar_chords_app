@@ -2,6 +2,7 @@
   <div>
     <ul>
       <SongListItem v-for="(songs, index) in songs" :key="index" :song="songs" />
+    </select>
     </ul>
 
   </div>

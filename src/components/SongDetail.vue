@@ -1,8 +1,9 @@
 <template lang="html">
   <div>
-    <p>{{song.name}}</p>
-    <p>{{song.artist}}</p>
-    <p>{{song.tabTypes}}</p>
+    <p>Song Title:{{song.title}}</p>
+    <p>Artist:{{song.artist.name}}</p>
+    <p>Tab Type:{{song.tabTypes}}</p>
+    <p>Find Tab: http://www.songsterr.com/a/wa/bestMatchForQueryString?s={{song.title}}&a={{song.artist.name}}</p>
   </div>
 </template>
 

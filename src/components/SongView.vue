@@ -39,6 +39,8 @@ export default {
 #view {
   display:flex;
   cursor: pointer;
+  color: white;
+  background-color: #000000;
 }
 
 </style>
