@@ -6,8 +6,6 @@
 
 <script>
 
-import SongDetail from '@/components/SongDetail';
-
 export default {
   name:'header-main'
 }

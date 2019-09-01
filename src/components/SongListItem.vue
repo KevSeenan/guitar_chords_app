@@ -1,7 +1,7 @@
 <template lang="html">
-<div>
-  <li @click="handleSongClick">{{song.title}}</li>
-</div>
+  <div>
+    <li @click="handleSongClick">{{song.title}}</li>
+  </div>
 </template>
 
 <script>
