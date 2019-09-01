@@ -39,8 +39,11 @@ export default {
 #view {
   display:flex;
   cursor: pointer;
-  color: white;
-  background-color: #000000;
+  color: 	#FF4500;
+  /* background-color: #000000; */
+  background-image: url('../assets/me_jamming.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 </style>
