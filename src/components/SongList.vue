@@ -1,7 +1,7 @@
 <template lang="html">
   <div id="song-list">
     <h3>Bob Dylan</h3>
-    <label for="artist-select">Select An Artist:</label>
+    <!-- <label for="artist-select">Select An Artist:</label> -->
     <!-- <select v-model="artists" v-on:change="">
       <option disabled value=" ">Select An Artist</option>
       <option SongListItem v-for="(artist, index) in artists" :value="artists" :key="index">{{song.artist}}</option>
@@ -52,6 +52,8 @@ export default {
 
 #song-list{
   border-style: groove;
+  overflow: scroll;
+  height: 100vh;
 }
 
 h3 {

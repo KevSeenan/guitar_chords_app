@@ -43,8 +43,8 @@ export default {
   background-image: url('../assets/me_jamming.jpg');
   background-repeat: no-repeat;
   background-position: right;
-  background-origin: border-box;
-  background-size: 950px;
+  background-origin: content-box;
+  background-size: 500px;
 }
 
 </style>
